@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import yfinance as yf
 
-SYMBOL = os.getenv("YAHOO_SYMBOL", "XAUUSD=X")
+SYMBOL = os.getenv("YAHOO_SYMBOL", "GC=F")
 INTERVAL = "15m"
 PERIOD = "5d"
 
