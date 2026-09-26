@@ -118,6 +118,7 @@ def main():
     df = get_data()
     x = indicators(df)
     result = detect_signal(x)
+    result = ("BUY", x.iloc[-1])  # TEMPORARY TEST LINE
 
     if not result:
         print("No new signal.")
